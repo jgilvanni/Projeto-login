@@ -55,7 +55,14 @@ section#login > div#formulario {
     display:block;
     padding:10px;
 
-    } 
+    }
+
+div.campo > label {
+
+    font-size: 0.8em;
+}
+    
+    
 
 
 
