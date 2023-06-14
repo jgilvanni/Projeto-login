@@ -11,7 +11,7 @@
     padding: 0px;
     margin: 0px;
     
-    box-sizing: brder-box;
+    box-sizing: border-box;
     /* inclui a borda na conta da dimensão da box */
 }
 
@@ -82,8 +82,7 @@ form> div.campo {
     height: 48px;
     border-radius: 8px;
     margin:5px 0px;
-    
-    
+       
 
 }
 div.campo > i {
@@ -97,16 +96,21 @@ div.campo > i {
 }
 div.campo > input {
     
-    background-color: #fbfaf9;
+    background-color: #8ef3d3;
     font-size: 1em;
-    width: calc(100% - 57px); 
+    width: calc(100% - 48px); 
     height: 40px;
     transform: translateY(-6px);    
     border:0px;
+    padding-left:5px;
     border-radius: 8px;
+   
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+    outline: none;
     
-
-
 }
 
 
@@ -132,7 +136,7 @@ form>a.botao {
     background-color: white;
     color: #1a6751;
     border: 1px solid;
-    border-radius: 5px;
+    border-radius: 8px;
     padding-top: 5px;
     margin-top: 5px;
 }
