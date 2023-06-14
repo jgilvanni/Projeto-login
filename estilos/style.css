@@ -36,8 +36,8 @@ section#login {
     
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    /* centraliza a section  */
+    
+    
     background-color: white;
     width: 250px;
     height: 500px;
@@ -47,6 +47,7 @@ section#login {
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);  /* centraliza a section  COLOQUE a linha TRANSFORM SEMPRE na última linha!!! */
 }
 
 section#login>div#imagem {
@@ -100,10 +101,11 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 48px); 
     height: 40px;
-    transform: translateY(-6px);    
+        
     border:0px;
     padding-left:5px;
     border-radius: 8px;
+    transform: translateY(-6px);
    
 }
 
